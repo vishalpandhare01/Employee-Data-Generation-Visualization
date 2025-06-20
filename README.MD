@@ -1,11 +1,11 @@
-````markdown
 # Django REST API Setup
 
 Clone the project repository:
 
 ```bash
 git clone https://github.com/vishalpandhare01/Employee-Data-Generation-Visualization.git
-````
+cd Employee-Data-Generation-Visualization
+```
 
 ---
 
@@ -31,7 +31,21 @@ Employee-Data-Generation-Visualization/
 
 ## Setup Instructions
 
-### 1. Activate Virtual Environment
+### 1. Create Virtual Environment
+
+* On Windows:
+
+  ```bash
+  python -m venv venv
+  ```
+
+* On macOS/Linux:
+
+  ```bash
+  python3 -m venv venv
+  ```
+
+### 2. Activate Virtual Environment
 
 * On Windows:
 
@@ -45,7 +59,7 @@ Employee-Data-Generation-Visualization/
   source venv/bin/activate
   ```
 
-### 2. Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -55,7 +69,7 @@ pip install -r requirements.txt
 
 ## Admin Credentials
 
-* **Username:** vishalp
+* **Username:** vishalp  
 * **Password:** emp\@123
 
 ---
@@ -97,7 +111,7 @@ All API endpoints are prefixed with `http://127.0.0.1:8000/api/v1/`
 
 ### Example:
 
-* To get the list of employees, visit:
+* To get the list of employees, visit:  
   `http://127.0.0.1:8000/api/v1/employees/`
 
 ---
