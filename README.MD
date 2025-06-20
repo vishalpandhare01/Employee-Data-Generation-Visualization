@@ -1,28 +1,31 @@
-```markdown
+````markdown
 # Django REST API Setup
 
-This project is a Django REST Framework application for managing employees, departments, attendance, performance, and projects.
+Clone the project repository:
+
+```bash
+git clone https://github.com/vishalpandhare01/Employee-Data-Generation-Visualization.git
+````
 
 ---
 
 ## Project Structure
 
 ```
-
-config/
-└── settings.py
-manage.py
-employee\_app/
-├── serializer/
-├── model/
-├── url.py
-└── view\.py
-venv/
-.env
-requirements.txt
-README.md
-
-````
+Employee-Data-Generation-Visualization/
+├── config/
+│   └── settings.py
+├── employee_app/
+│   ├── serializer/
+│   ├── model/
+│   ├── url.py
+│   └── view.py
+├── manage.py
+├── venv/
+├── .env
+├── requirements.txt
+└── README.md
+```
 
 ---
 
@@ -30,10 +33,11 @@ README.md
 
 ### 1. Activate Virtual Environment
 
-- On Windows:
+* On Windows:
+
   ```bash
   venv\Scripts\activate
-````
+  ```
 
 * On macOS/Linux:
 
@@ -131,3 +135,5 @@ urlpatterns = [
 * Ensure `.env` file contains your environment variables.
 * Use Django admin panel at `http://127.0.0.1:8000/admin/` to manage data through UI.
 * Make sure virtual environment is activated before running any management commands.
+
+---
